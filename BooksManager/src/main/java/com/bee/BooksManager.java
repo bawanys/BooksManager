@@ -63,7 +63,7 @@ public class BooksManager {
 
 	private static void begin() {
 		factory = Persistence.createEntityManagerFactory("BookUnit");
-		 entityManager = factory.createEntityManager();
+		entityManager = factory.createEntityManager();
 		
 		entityManager.getTransaction().begin();
 	}

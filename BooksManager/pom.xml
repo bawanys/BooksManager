@@ -3,4 +3,16 @@
   <groupId>com.bee</groupId>
   <artifactId>BooksManager</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+  	<dependency>
+  		<groupId>org.hibernate</groupId>
+  		<artifactId>hibernate-core</artifactId>
+  		<version>6.0.0.Alpha6</version>
+  	</dependency>
+  	<dependency>
+  <groupId>mysql</groupId>
+  <artifactId>mysql-connector-java</artifactId>
+  <version>8.0.21</version>
+</dependency>
+  </dependencies>
 </project>
